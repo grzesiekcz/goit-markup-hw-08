@@ -10,10 +10,14 @@ body {
 }
 
 /* header */
-.nav-tabs:hover,
-.nav-tabs:focus,
-.contacts:hover,
-.contacts:focus {
+.header {
+    text-decoration: none;
+}
+
+.nav-tabs:hover > li,
+.nav-tabs:focus > li,
+.contacts:hover > li,
+.contacts:focus > li {
     color: var(--active-color)
 }
 
@@ -26,3 +30,34 @@ line-height: 1,192;
 letter-spacing: 0.03em;
 color: var(--active-color);
 }
+
+.title {
+    font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.background {
+    background-color: #2F303A;
+}
+.main-button {
+    cursor: pointer;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--active-color)
+}
+
+/* main */
