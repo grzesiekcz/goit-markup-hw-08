@@ -10,14 +10,29 @@ body {
 }
 
 /* header */
-.header {
-    text-decoration: none;
+
+.navbar {
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1,14;
+letter-spacing: 0.02em;
+
+color: #212121;
 }
 
-.nav-tabs:hover > li,
-.nav-tabs:focus > li,
-.contacts:hover > li,
-.contacts:focus > li {
+.contacts {
+    color: var(--font-color);
+    font-weight: 500;
+font-size: 14px;
+line-height: 1,14;
+letter-spacing: 0.02em;
+}
+
+.nav-tabs:hover li,
+.nav-tabs:focus li,
+.contacts:hover li,
+.contacts:focus li {
     color: var(--active-color)
 }
 
@@ -61,3 +76,25 @@ color: var(--active-color);
 }
 
 /* main */
+.plist h4 {
+    color: #212121;
+}
+
+.section-title {
+    font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1,16;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.figcaption h4 {
+    color: #212121;
+    font-weight: 500;
+font-size: 16px;
+line-height: 1,187;
+text-align: center;
+letter-spacing: 0.03em;
+}
