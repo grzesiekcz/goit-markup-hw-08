@@ -1,6 +1,6 @@
 :root {
-    --font-color: #757575;
-    --active-color: #2196F3
+  --font-color: #757575;
+  --active-color: #2196f3;
 }
 
 body {
@@ -12,42 +12,42 @@ body {
 /* header */
 
 .navbar {
-    font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1,14;
-letter-spacing: 0.02em;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
 
-color: #212121;
+  color: #212121;
 }
 
 .contacts {
-    color: var(--font-color);
-    font-weight: 500;
-font-size: 14px;
-line-height: 1,14;
-letter-spacing: 0.02em;
+  color: var(--font-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
 }
 
 .nav-tabs:hover li,
 .nav-tabs:focus li,
 .contacts:hover li,
 .contacts:focus li {
-    color: var(--active-color)
+  color: var(--active-color);
 }
 
 .webtitle {
-    font-family: Raleway;
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 1,192;
-letter-spacing: 0.03em;
-color: var(--active-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1, 192;
+  letter-spacing: 0.03em;
+  color: var(--active-color);
 }
 
 .title {
-    font-style: normal;
+  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -58,10 +58,10 @@ color: var(--active-color);
 }
 
 .background {
-    background-color: #2F303A;
+  background-color: #2f303a;
 }
 .main-button {
-    cursor: pointer;
+  cursor: pointer;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -72,29 +72,54 @@ color: var(--active-color);
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
-  background-color: var(--active-color)
+  background-color: var(--active-color);
 }
 
 /* main */
 .plist h4 {
-    color: #212121;
+  color: #212121;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1, 143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .section-title {
-    font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 1,16;
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1, 16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.figcaption {
+  font-size: 16px;
+  line-height: 1, 187;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .figcaption h4 {
-    color: #212121;
-    font-weight: 500;
-font-size: 16px;
-line-height: 1,187;
-text-align: center;
-letter-spacing: 0.03em;
+  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 187;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* footer */
+
+.footer {
+  background-color: #2f303a;
+}
+
+.address {
+  font-size: 14px;
+  line-height: 1, 71px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
