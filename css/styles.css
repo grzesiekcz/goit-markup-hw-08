@@ -1,0 +1,28 @@
+:root {
+    --font-color: #757575;
+    --active-color: #2196F3
+}
+
+body {
+  background: #ffffff;
+  color: var(--font-color);
+  font-family: "Roboto", "Raleway", sans-serif;
+}
+
+/* header */
+.nav-tabs:hover,
+.nav-tabs:focus,
+.contacts:hover,
+.contacts:focus {
+    color: var(--active-color)
+}
+
+.webtitle {
+    font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1,192;
+letter-spacing: 0.03em;
+color: var(--active-color);
+}
