@@ -17,7 +17,6 @@ body {
   font-size: 14px;
   line-height: 1, 14;
   letter-spacing: 0.02em;
-
   color: #212121;
 }
 
@@ -29,10 +28,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.nav-tabs:hover li,
-.nav-tabs:focus li,
-.contacts:hover li,
-.contacts:focus li {
+.link:hover {
   color: var(--active-color);
 }
 
@@ -121,5 +117,33 @@ body {
   font-size: 14px;
   line-height: 1, 71px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--font-color)
 }
+
+.address-place {
+    color: #ffffff
+}
+
+/* portfolio */
+
+.button {
+    background-color: #F5F4FA;
+border-radius: 4px;
+font-weight: 500;
+font-size: 16px;
+line-height: 1,62;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.button:hover {
+background-color: #2196F3;
+font-weight: 500;
+font-size: 16px;
+line-height: 1,62;
+text-align: center;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
