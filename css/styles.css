@@ -20,14 +20,17 @@ body {
   color: #212121;
 }
 
-.contacts {
+.contacts a {
   color: var(--font-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1, 14;
   letter-spacing: 0.02em;
 }
-
+.link,
+.title_link {
+  text-decoration: none;
+}
 .link:hover {
   color: var(--active-color);
 }
@@ -40,6 +43,17 @@ body {
   line-height: 1, 192;
   letter-spacing: 0.03em;
   color: var(--active-color);
+  text-decoration: none;
+}
+
+.studio_title {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1, 192;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .title {
@@ -105,6 +119,10 @@ body {
   line-height: 1, 187;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.team {
+  background-color: #F5F4FA
 }
 
 /* footer */
