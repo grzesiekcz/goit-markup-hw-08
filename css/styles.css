@@ -11,13 +11,16 @@ body {
 
 /* header */
 
-.navbar {
+.navbar a {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1, 14;
   letter-spacing: 0.02em;
   color: #212121;
+}
+.navbar ul {
+  list-style: none;
 }
 
 .contacts a {
@@ -26,6 +29,10 @@ body {
   font-size: 14px;
   line-height: 1, 14;
   letter-spacing: 0.02em;
+}
+
+.contacts li {
+  list-style: none;
 }
 .link,
 .title_link {
@@ -46,7 +53,7 @@ body {
   text-decoration: none;
 }
 
-.studio_title {
+.studio_title_header {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -54,6 +61,7 @@ body {
   line-height: 1, 192;
   letter-spacing: 0.03em;
   text-decoration: none;
+  color: #212121;
 }
 
 .title {
@@ -86,6 +94,11 @@ body {
 }
 
 /* main */
+
+.plist {
+  list-style: none;
+}
+
 .plist h4 {
   color: #212121;
   font-weight: bold;
@@ -121,47 +134,80 @@ body {
   letter-spacing: 0.03em;
 }
 
+.projects {
+  list-style: none;
+}
+
 .team {
-  background-color: #F5F4FA
+  background-color: #f5f4fa;
+}
+.team ul {
+  list-style: none;
 }
 
 /* footer */
-
+.studio_title_footer {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1, 192;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
 .footer {
   background-color: #2f303a;
 }
 
 .address {
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
   line-height: 1, 71px;
   letter-spacing: 0.03em;
-  color: var(--font-color)
+  color: var(--font-color);
 }
 
 .address-place {
-    color: #ffffff
+  color: #ffffff;
+}
+
+.footer_link {
+  text-decoration: none;
+  color: var(--font-color);
+}
+
+.address li {
+  list-style: none;
 }
 
 /* portfolio */
 
 .button {
-    background-color: #F5F4FA;
-border-radius: 4px;
-font-weight: 500;
-font-size: 16px;
-line-height: 1,62;
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
 .button:hover {
-background-color: #2196F3;
-font-weight: 500;
-font-size: 16px;
-line-height: 1,62;
-text-align: center;
-letter-spacing: 0.03em;
-color: #FFFFFF;
+  background-color: #2196f3;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 
+.button_list {
+  list-style: none;
+}
+
+.portfolio_list {
+  list-style: none;
+}
