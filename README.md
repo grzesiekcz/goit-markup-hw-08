@@ -1,5 +1,5 @@
-# goit-markup-hw-02
+# goit-markup-hw-0
 
-https://grzesiekcz.github.io/goit-markup-hw-02/
 
-Praca domowa - zad. 2
+
+Praca domowa - zad. 3
