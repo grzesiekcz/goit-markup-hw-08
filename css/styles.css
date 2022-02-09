@@ -9,6 +9,37 @@ body {
   font-family: "Roboto", "Raleway", sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+ul,
+ol {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	display: block;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
 /* header */
 
 .navbar a {
