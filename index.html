@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
-    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -38,14 +38,14 @@
      
       <main>
       <section class="main-title">
-        <div class="background container">
+        <div class="background">
         <h1 class="title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1></div>
-        <div class="container"><button type="button" class="main-button">Zamów usługę</button>
+        <div class="container"><button type="button" class="main-button">Zamów usługę</button></div>
         </div>
       </section>
     
     
-      <section>
+      <section class="p-section">
         <div class="container">
         <ul class="plist">
           <li>
@@ -82,10 +82,11 @@
 
 <!-- ---- section 2 ---- -->
 
-      <section>
+      <section class="section-img">
         <h2 class="section-title">Czym się zajmujemy</h2>
-        <ul class="projects">
-          <li>
+        <div class="container">
+        <ul class="projects-list">
+          <li class="projects-list-item">
             <img
               src="images/image1.jpg"
               alt="Osoba pracująca przy biurku na tablecie i komputerze osobistym"
@@ -93,7 +94,7 @@
               height="294"
             />
           </li>
-          <li>
+          <li class="projects-list-item">
             <img
               src="images/image2.jpg"
               alt="Osoba tworząca aplikację na telefon przy użyciu laptopa i telefonu"
@@ -101,7 +102,7 @@
               height="294"
             />
           </li>
-          <li>
+          <li class="projects-list-item">
             <img
               src="images/image3.jpg"
               alt="Osoba ogląda paletę kolorów na tablecie"
@@ -110,6 +111,7 @@
             />
           </li>
         </ul>
+        </div>
       </section>
 
 <!-- --- Section 3 ---- -->
