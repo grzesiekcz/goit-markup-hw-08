@@ -285,8 +285,11 @@ color: var(--font-color)
 }
 .footer .address {
   display: flex;
-
 }
+.address-list-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 .address {
   font-style: normal;
   font-weight: normal;
