@@ -158,7 +158,7 @@ text-align: center;
 width: 1600px;
 height: 600px;
 top: 80px;
-margin: auto;
+margin: 0 auto;
 margin-bottom: 94px
 }
 .main-button {
@@ -276,8 +276,17 @@ color: var(--font-color)
 }
 .footer {
   background-color: #2f303a;
+  height: 252px;
 }
 
+.footer .footer-logo {;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+.footer .address {
+  display: flex;
+
+}
 .address {
   font-style: normal;
   font-weight: normal;
