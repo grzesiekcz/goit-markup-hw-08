@@ -238,6 +238,13 @@ color: var(--font-color)
   color: #212121;
 }
 
+.team .section-title {
+  margin-top: 94px;
+  margin-bottom: 50px;
+  text-align: center;
+  margin-left: 495px;
+}
+
 .figcaption {
   font-size: 16px;
   line-height: 1, 187;
@@ -264,6 +271,19 @@ color: var(--font-color)
 }
 .team ul {
   list-style: none;
+}
+
+.team .team-list {
+  display: flex;
+  margin: 0;
+}
+
+.team .team-list-item {
+  width: 270px;
+  margin-right: 30px;
+  align-items: flex-start;
+
+
 }
 
 /* footer */
