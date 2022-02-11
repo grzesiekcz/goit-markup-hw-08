@@ -372,6 +372,7 @@ img {
 
 .button-section .button_list {
   display: flex;
+  margin-top: 94px;
   margin-left: 250px;
   margin-bottom: 50px;
 }
@@ -388,14 +389,26 @@ img {
 
 .portfolio-section .portfolio-list-item {
   width: 370px;
+  margin-bottom: 30px;
+}
+
+.portfolio-section .portfolio-list-item:not(:last-child) {
   margin-right: 30px;
-  flex-basis: calc(100% / 3);
+}
+
+.potfolio-list-item {
+  flex-basis: calc(100% / 3 - 15px);
 }
 
 .figcaption {
-  background: #FFFFFF;
-border: 1px solid #EEEEEE;
-box-sizing: border-box;
-width: 370px;
-height: 110px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  width: 370px;
+  height: 110px;
+}
+
+.figcaption-title {
+  margin-top: 20px;
+  margin-bottom: 4px;
 }
