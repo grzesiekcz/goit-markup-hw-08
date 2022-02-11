@@ -272,15 +272,17 @@ img {
   list-style: none;
 }
 
-.team .team-list {
+.team-list {
   display: flex;
   margin: 0;
+  flex: wrap;
+  justify-content: center;
 }
 
 .team .team-list-item {
   width: 270px;
   margin-right: 30px;
-  align-items: flex-start;
+  
 }
 
 /* footer */
