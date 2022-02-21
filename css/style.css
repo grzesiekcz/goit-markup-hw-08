@@ -13,11 +13,6 @@
   --font-bold: 700;
   --font-xbold: 900;
 
-  --l-spacing-01: 0.01em;
-  --l-spacing-02: 0.02em;
-  --l-spacing-03: 0.03em;
-  --l-spacing-06: 0.06em;
-
   --l-height-16: 1rem;
   --l-height-19: 1.1875rem;
   --l-height-24: 1.5rem;
@@ -189,7 +184,7 @@ h2 {
   font-size: 14px;
   line-height: var(--l-height-16);
   font-weight: var(--font-normal);
-  letter-spacing: var(--l-spacing-02);
+  letter-spacing: 0.02em;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -230,7 +225,7 @@ h2 {
   font-size: 44px;
   font-weight: var(--font-xbold);
   line-height: var(--l-height-60);
-  letter-spacing: var(--l-spacing-06);
+  letter-spacing: 0.06em;
   width: 40rem;
   margin-right: auto;
   margin-left: auto;
@@ -244,7 +239,7 @@ h2 {
   font-family: var(--font-primary);
   font-weight: var(--font-bold);
   line-height: var(--l-height-30);
-  letter-spacing: var(--l-spacing-06);
+  letter-spacing: 0.06em;
   padding: 10px 41px;
   border: 0;
   border-radius: 4px;
@@ -268,7 +263,7 @@ h2 {
   font-size: 14px;
   line-height: var(--l-height-16);
   font-weight: var(--font-bold);
-  letter-spacing: var(--l-spacing-03);
+  letter-spacing: 0.03em;
   margin-bottom: 10px;
 }
 
@@ -277,7 +272,7 @@ h2 {
   font-size: 14px;
   line-height: var(--l-height-24);
   font-weight: var(--font-normal);
-  letter-spacing: var(--l-spacing-03);
+  letter-spacing: 0.03em;
 }
 
 .about-svg {
@@ -312,7 +307,7 @@ h2 {
   font-size: 14px;
   font-weight: var(--font-bold);
   line-height: var(--l-height-16);
-  letter-spacing: var(--l-spacing-03);
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -335,7 +330,7 @@ h2 {
   font-size: 16px;
   line-height: var(--l-height-19);
   font-weight: var(--font-normal);
-  letter-spacing: var(--l-spacing-03);
+  letter-spacing: 0.03em;
   padding-top: 30px;
   padding-bottom: 10px;
 }
@@ -438,7 +433,7 @@ h2 {
   font-size: 26px;
   font-family: var(--font-raleway);
   font-weight: var(--font-bold);
-  letter-spacing: var(--l-spacing-03);
+  letter-spacing: 0.03em;
   line-height: var(--l-height-31);
 }
 
@@ -479,7 +474,7 @@ address {
   font-size: 14px;
   font-weight: var(--font-bold);
   line-height: var(--l-height-16);
-  letter-spacing: var(--l-spacing-03);
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   cursor: text;
 }
@@ -497,7 +492,7 @@ address {
   font-size: 14px;
   line-height: var(--l-height-24);
   font-weight: var(--font-normal);
-  letter-spacing: var(--l-spacing-03);
+  letter-spacing: 0.03em;
 }
 
 .footer-contact-link a {
@@ -506,7 +501,7 @@ address {
   font-size: 14px;
   line-height: var(--l-height-24);
   font-weight: var(--font-normal);
-  letter-spacing: var(--l-spacing-03);
+  letter-spacing: 0.03em;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -564,7 +559,7 @@ address {
   font-family: var(--font-primary);
   line-height: var(--l-height-30);
   font-weight: var(--font-normal);
-  letter-spacing: var(--l-spacing-06);
+  letter-spacing: 0.06em;
   background-color: transparent;
   border: 0;
   cursor: pointer;
@@ -589,7 +584,7 @@ address {
   font-family: var(--font-primary);
   line-height: var(--l-height-26);
   font-weight: var(--font-normal);
-  letter-spacing: var(--l-spacing-03);
+  letter-spacing: 0.03em;
   background-color: var(--color-bg-light);
   border: 0;
   border-radius: 4px;
@@ -637,7 +632,7 @@ address {
   line-height: var(--l-height-36);
   font-weight: var(--font-bold);
   font-family: var(--font-primary);
-  letter-spacing: var(--l-spacing-06);
+  letter-spacing: 0.06em;
   padding-top: 20px;
   padding-bottom: 10px;
   padding-left: 24px;
@@ -648,7 +643,7 @@ address {
   font-size: 16px;
   line-height: var(--l-height-30);
   font-weight: var(--font-normal);
-  letter-spacing: var(--l-spacing-03);
+  letter-spacing: 0.03em;
   padding-bottom: 30px;
   padding-left: 24px;
 }
@@ -665,7 +660,7 @@ img[alt]::before {
   line-height: var(--l-height-36);
   font-weight: var(--font-bold);
   font-family: var(--font-primary);
-  letter-spacing: var(--l-spacing-06);
+  letter-spacing: 0.06em;
 }
 
 img[alt]::after {
@@ -679,7 +674,7 @@ img[alt]::after {
   line-height: var(--l-height-36);
   font-weight: var(--font-bold);
   font-family: var(--font-primary);
-  letter-spacing: var(--l-spacing-06);
+  letter-spacing: 0.06em;
 }
 
 .popup-img {
@@ -701,7 +696,7 @@ img[alt]::after {
   color: var(--color-white);
   font-size: 18px;
   line-height: var(--l-height-28);
-  letter-spacing: var(--l-spacing-03);
+  letter-spacing: 0.03em;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding-top: 49px;
   padding-left: 24px;
@@ -795,7 +790,7 @@ img[alt]::after {
   color: var(--color-secondary);
   font-size: 12px;
   line-height: 14px;
-  letter-spacing: var(--l-spacing-01);
+  letter-spacing: 0.01em;
 }
 
 .form-input {
@@ -811,7 +806,7 @@ img[alt]::after {
   font-family: var(--font-primary);
   font-weight: var(--font-bold);
   line-height: var(--l-height-30);
-  letter-spacing: var(--l-spacing-06);
+  letter-spacing: 0.06em;
   padding: 10px 41px;
   border: 0;
   border-radius: 4px;
