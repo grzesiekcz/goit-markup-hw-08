@@ -13,14 +13,6 @@
   --font-bold: 700;
   --font-xbold: 900;
 
-  --font-12: 12px;
-  --font-14: 14px;
-  --font-16: 16px;
-  --font-18: 18px;
-  --font-26: 26px;
-  --font-36: 36px;
-  --font-44: 44px;
-
   --l-spacing-01: 0.01em;
   --l-spacing-02: 0.02em;
   --l-spacing-03: 0.03em;
@@ -194,7 +186,7 @@ h2 {
 .header-contact-link {
   color: var(--color-secondary);
   fill: var(--color-secondary);
-  font-size: var(--font-14);
+  font-size: 14px;
   line-height: var(--l-height-16);
   font-weight: var(--font-normal);
   letter-spacing: var(--l-spacing-02);
@@ -235,7 +227,7 @@ h2 {
 
 .hero-content h1 {
   color: var(--color-white);
-  font-size: var(--font-44);
+  font-size: 44px;
   font-weight: var(--font-xbold);
   line-height: var(--l-height-60);
   letter-spacing: var(--l-spacing-06);
@@ -248,7 +240,7 @@ h2 {
 .hero-btn {
   color: var(--color-white);
   background-color: var(--color-accent);
-  font-size: var(--font-16);
+  font-size: 16px;
   font-family: var(--font-primary);
   font-weight: var(--font-bold);
   line-height: var(--l-height-30);
@@ -273,7 +265,7 @@ h2 {
 }
 
 .about-content-item h3 {
-  font-size: var(--font-14);
+  font-size: 14px;
   line-height: var(--l-height-16);
   font-weight: var(--font-bold);
   letter-spacing: var(--l-spacing-03);
@@ -282,7 +274,7 @@ h2 {
 
 .about-content-item p {
   color: var(--color-secondary);
-  font-size: var(--font-14);
+  font-size: 14px;
   line-height: var(--l-height-24);
   font-weight: var(--font-normal);
   letter-spacing: var(--l-spacing-03);
@@ -317,7 +309,7 @@ h2 {
   height: 70px;
   color: var(--color-white);
   background-color: var(--color-bg-dark-opacity);
-  font-size: var(--font-14);
+  font-size: 14px;
   font-weight: var(--font-bold);
   line-height: var(--l-height-16);
   letter-spacing: var(--l-spacing-03);
@@ -340,7 +332,7 @@ h2 {
 
 .team-content-item h4 {
   color: var(--color-primary);
-  font-size: var(--font-16);
+  font-size: 16px;
   line-height: var(--l-height-19);
   font-weight: var(--font-normal);
   letter-spacing: var(--l-spacing-03);
@@ -350,7 +342,7 @@ h2 {
 
 .team-content-item p {
   color: var(--color-secondary);
-  font-size: var(--font-16);
+  font-size: 16px;
   line-height: var(--l-height-19);
 }
 
@@ -443,7 +435,7 @@ h2 {
 
 .footer-logo {
   color: var(--color-white);
-  font-size: var(--font-26);
+  font-size: 26px;
   font-family: var(--font-raleway);
   font-weight: var(--font-bold);
   letter-spacing: var(--l-spacing-03);
@@ -484,7 +476,7 @@ address {
 
 .footer-heading {
   color: var(--color-white);
-  font-size: var(--font-14);
+  font-size: 14px;
   font-weight: var(--font-bold);
   line-height: var(--l-height-16);
   letter-spacing: var(--l-spacing-03);
@@ -502,7 +494,7 @@ address {
 
 .footer-contact-link {
   color: var(--color-white);
-  font-size: var(--font-14);
+  font-size: 14px;
   line-height: var(--l-height-24);
   font-weight: var(--font-normal);
   letter-spacing: var(--l-spacing-03);
@@ -511,7 +503,7 @@ address {
 .footer-contact-link a {
   color: var(--color-white);
   opacity: 0.6;
-  font-size: var(--font-14);
+  font-size: 14px;
   line-height: var(--l-height-24);
   font-weight: var(--font-normal);
   letter-spacing: var(--l-spacing-03);
@@ -568,7 +560,7 @@ address {
 
 .newsletter-btn {
   color: var(--color-white);
-  font-size: var(--font-16);
+  font-size: 16px;
   font-family: var(--font-primary);
   line-height: var(--l-height-30);
   font-weight: var(--font-normal);
@@ -593,14 +585,14 @@ address {
 
 .portfolio-filtr-content-item--button {
   color: var(--color-primary);
-  font-size: var(--font-16);
+  font-size: 16px;
   font-family: var(--font-primary);
   line-height: var(--l-height-26);
   font-weight: var(--font-normal);
   letter-spacing: var(--l-spacing-03);
   background-color: var(--color-bg-light);
   border: 0;
-  border-radius: var(--border-r-4);
+  border-radius: 4px;
   padding: 6px 22px;
   cursor: pointer;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -641,7 +633,7 @@ address {
 
 .portfolio-content-item-link h3 {
   color: var(--color-primary);
-  font-size: var(--font-18);
+  font-size: 18px;
   line-height: var(--l-height-36);
   font-weight: var(--font-bold);
   font-family: var(--font-primary);
@@ -653,7 +645,7 @@ address {
 
 .portfolio-content-item-link p {
   color: var(--color-secondary);
-  font-size: var(--font-16);
+  font-size: 16px;
   line-height: var(--l-height-30);
   font-weight: var(--font-normal);
   letter-spacing: var(--l-spacing-03);
@@ -669,7 +661,7 @@ img {
 
 img[alt]::before {
   color: var(--color-primary);
-  font-size: var(--font-18);
+  font-size: 18px;
   line-height: var(--l-height-36);
   font-weight: var(--font-bold);
   font-family: var(--font-primary);
@@ -683,7 +675,7 @@ img[alt]::after {
   width: 30px;
   height: 30px;
   color: var(--color-primary);
-  font-size: var(--font-18);
+  font-size: 18px;
   line-height: var(--l-height-36);
   font-weight: var(--font-bold);
   font-family: var(--font-primary);
@@ -707,7 +699,7 @@ img[alt]::after {
   left: 0;
   background-color: var(--color-accent);
   color: var(--color-white);
-  font-size: var(--font-18);
+  font-size: 18px;
   line-height: var(--l-height-28);
   letter-spacing: var(--l-spacing-03);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -785,7 +777,7 @@ img[alt]::after {
 
 .form-wrapper h3 {
   text-align: center;
-  padding-bottom: var(--gap-12);
+  padding-bottom: 12px;
 }
 
 .form-label textarea {
@@ -801,8 +793,8 @@ img[alt]::after {
 .form-label {
   padding-bottom: 4px;
   color: var(--color-secondary);
-  font-size: var(--font-12);
-  line-height: var(--font-14);
+  font-size: 12px;
+  line-height: 14px;
   letter-spacing: var(--l-spacing-01);
 }
 
@@ -815,18 +807,18 @@ img[alt]::after {
 .modal-btn {
   color: var(--color-white);
   background-color: var(--color-accent);
-  font-size: var(--font-16);
+  font-size: 16px;
   font-family: var(--font-primary);
   font-weight: var(--font-bold);
   line-height: var(--l-height-30);
   letter-spacing: var(--l-spacing-06);
-  padding: var(--gap-10) var(--gap-41);
+  padding: 10px 41px;
   border: 0;
-  border-radius: var(--border-r-4);
+  border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
   width: 200px;
-  margin: var(--gap-30) auto auto auto;
+  margin: 30px auto auto auto;
 }
 
 .label-wrapper {
