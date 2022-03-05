@@ -1,3 +1,3 @@
-Praca domowa nr 6
+Praca domowa nr 7
 
-https://grzesiekcz.github.io/goit-markup-hw-06/
+https://grzesiekcz.github.io/goit-markup-hw-07/
