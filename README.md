@@ -1,5 +1,1 @@
-# goit-markup-hw-07
-
-https://grzesiekcz.github.io/goit-markup-hw-07/
-
-Praca domowa nr 7
+# [goit-markup-hw-08](https://martynlazarewicz.github.io/goit-markup-hw-08/)
