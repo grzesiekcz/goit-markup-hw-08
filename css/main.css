@@ -450,10 +450,10 @@ button {
   letter-spacing: 0.03em;
   color: white;
   background-color: rgba(33, 150, 243, 0.9);
-  padding-top: 49px;
+  padding-top: 45px;
   padding-left: 24px;
   padding-right: 45px;
-  padding-bottom: 45px;
+  padding-bottom: 49px;
   -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -467,7 +467,6 @@ button {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 1600px;
   margin-right: auto;
   margin-left: auto;
 }

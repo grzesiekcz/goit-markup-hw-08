@@ -69,10 +69,10 @@
       letter-spacing: get-letter-spacing('03');
       color: get-color('white');
       background-color: get-color('accent', 0.9);
-      padding-top: 49px;
+      padding-top: 45px;
       padding-left: 24px;
       padding-right: 45px;
-      padding-bottom: 45px;
+      padding-bottom: 49px;
       transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
   }
